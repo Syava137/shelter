@@ -1,0 +1,86 @@
+.outerContainer{
+    width: 100%;
+    max-width: 1280px;
+    height: 608px;
+    margin: 0 auto;
+    background-image: url('./../../../public/images/cats.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outerContainerGradient{
+    width: 100%;
+    max-width: 1280px;
+    height: 608px;
+    background: linear-gradient(#3267A5C2, #36343342);
+}
+
+.title{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: var(--weight-black);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+    color: var(--white);
+}
+
+.subTitle{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: var(--weight-black);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+    color: var(--white);
+}
+
+.cards{
+    margin-top: 25px;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cardText{
+    margin-top: 21px;
+    font-size: 20px;
+    font-weight: var(--weight-black);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+    color: var(--white);
+}
+
+.text{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: var(--extra-bold);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+    color: var(--white);
+}
+
+.phoneNumber{
+    text-align: center;
+    width: 320px;
+    padding: 22px 18px;
+    border-radius: 69px;
+    background-color: rgba(50, 103, 165, 0.33);
+    margin:35px auto 0;
+    font-size: 20px;
+    font-weight: var(--weight-black);
+    letter-spacing: 0.21px; 
+    color: var(--white);
+}
+

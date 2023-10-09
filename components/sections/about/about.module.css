@@ -1,0 +1,31 @@
+.container{
+    height: 301px;
+    background-color: var(--blue);
+    border-radius: 69px;
+    box-shadow: 0px 4px 4px 0px var(--black-shadow);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    width: 400px;
+    margin: 0 auto;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--semi-bold);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+}
+
+.bigText{
+    font-size: 20px;
+    font-weight: var(--weight-black);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+}
+
+
+

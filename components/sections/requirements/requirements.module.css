@@ -1,0 +1,11 @@
+.title{
+    font-size: 32px;
+    font-weight: var(--medium);
+    line-height: 138%; 
+    letter-spacing: 0.48px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 90px;
+}

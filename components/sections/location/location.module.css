@@ -1,0 +1,45 @@
+.outerContainer{
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px var(--black-shadow);
+}
+
+.title{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: var(--semi-bold);
+    line-height: 138%;
+    letter-spacing: 0.24px;
+}
+
+.textCities{
+    margin-top: 15px;
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: var(--semi-bold);
+    line-height: 138%;
+    letter-spacing: 0.24px;
+}
+
+.text{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: var(--bold);
+    line-height: 138%;
+    letter-spacing: 0.24px;
+}
+
+.textBlue{
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: var(--weight-black);
+    line-height: 138%;
+    letter-spacing: 0.24px;
+}
+
+.contactUs{
+    margin-top: 25px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}

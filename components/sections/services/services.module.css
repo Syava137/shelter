@@ -1,0 +1,32 @@
+.title{
+    font-size: 32px;
+    font-weight: var(--medium);
+    text-align: center;
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+
+}
+
+.cards{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardText{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: var(--bold);
+    line-height: 138%;
+    letter-spacing: 0.21px; 
+}

@@ -1,0 +1,48 @@
+.container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    margin: 0 auto;
+    gap: 80px;
+    position: relative;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.cardText{
+    width: 297px;
+    font-size: 15px;
+    font-weight: var(--bold);
+    line-height: 138%; 
+    letter-spacing: 0.225px;
+    text-align: center;
+}
+
+.controllers{
+    margin: 35px auto 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
